@@ -1,10 +1,19 @@
 # pycharles
 
-## usage:
+## Install Requirements:
 
-1. open your desired charles session.
-2. select `File > Export Session`
-3. export as a JSON session file
+Run the following to install the requirements.
+```
+git clone https://github.com/jg8481/pycharles.git
+cd pycharles/
+pip3 install -r ./requirements.txt
+```
+
+## Usage:
+
+1. Open your desired charles session.
+2. Select `File > Export Session`
+3. Export as a JSON session file
 
 ```
 > from pycharles.session import CharlesSession
